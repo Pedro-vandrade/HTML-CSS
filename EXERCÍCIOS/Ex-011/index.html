@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Use esse teste em diferentes dispositivos ou apenas diminua seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="Imagens/Grande.png" alt="imagem flexível"></picture>
+        <h1>Reprodução de audio</h1>
+        <p>Vamos aprender a reproduzir audio</p>
+        <!-- mp3 wav e ogg -->
+        <audio preload="metadata" controls autoplay>
+            <source src="Midia/Tak - Bobby Richards.mp3" type="audio/mpeg">
+        </audio>
+        <p>infelizmente não é possivel reproduzir o audio faça o <a href="Midia/Tak - Bobby Richards.mp3" type="_blank">download aqui</a></p>
+
+</body>
+</html>

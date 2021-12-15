@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #17db69, #009191);
+}
+main {
+   background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+    padding: 10px;
+}
+p
+{
+    text-align: justify;
+}
+h2
+{
+   color: teal;
+}
+h1
+{
+   text-align: center;
+    color: tomato;
+    text-shadow: 1px 1px 1px rgba(240, 88, 61, 0.342);
+}

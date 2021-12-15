@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body
+        {
+            background-color: antiquewhite;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+        header
+        {
+            background-color: white;
+            padding: 10px ;
+            margin: 10px;border-radius: 6px;
+        }
+        main{
+            background-color: wheat;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: grey;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p
+        {
+            margin: 1px;
+        }
+        article > aside
+        {
+            background-color: rgb(128, 127, 127);
+            padding: 1px;
+        }
+        nav{
+            background-color: rgba(0, 0, 0, 0.863);
+            box-shadow: 5px 3px 7px 1px rgba(31, 14, 14, 0.555);
+        }
+        nav > a
+        {
+         color:white;
+         text-decoration: none ;
+         margin-right: 30px;
+        }
+        nav > a:hover
+        {
+            text-decoration: underline;
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+   <header>
+     <h1>Meu site</h1>
+     <nav>
+         <a href="">link</a>
+         <a href="">link</a>
+         <a href="">link</a>
+         <a href="">link</a>
+         <a href="">link</a>
+     </nav>
+   </header>
+    <main>
+     <section id="assuntos">
+
+     </section>
+     <section id="noticias">
+         <article>
+             <h2>How to make content for an underground fanbase</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae impedit laboriosam dolor neque dolorem quos a eaque quas, quod aperiam. Reprehenderit doloremque qui accusamus eos nam quas neque, adipisci temporibus.</p>
+             <aside>
+               <p>Written by Chistopher Hanson</p>
+             </aside>
+         </article>
+         <article></article>
+
+     </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
