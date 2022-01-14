@@ -201,3 +201,8 @@ footer  a:hover
     color: var(--cor3);
 
 }
+img
+{
+margin: auto;
+width: 100%;
+}
