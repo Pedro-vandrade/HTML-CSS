@@ -10,22 +10,48 @@
     {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    h1
+{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
     table
     {
         border: 1px solid black;
         border-collapse: collapse;
         position: relative;
         width: 400px;
+        margin: auto;
+        padding: 20px;
+    }
+    tbody > tr:nth-child(odd)
+    {
+        background-color: #63B0F2;
+    }
+    tbody > tr:nth-child(even)
+    {
+        background-color: black;
+        color: white;
     }
     th, td
     {
         border: 1px solid black;
         text-align: center;
     }
+    th{
+        padding: 5px;
+        font-size: 1.1em;
+    }
+    td
+    {
+        padding: 3px;
+        font-weight: 500;
+    }
     </style>
 </head>
 <body>
-    <h1>Tabela de público do Grêmio no ano de 2017</h1>
+    <h1>Ranking com os 10 maiores públicos da Arena do Grêmio em 2017</h1>
     <table>
         <thead>
             <th>Jogo</th>
@@ -64,6 +90,28 @@
             <td>GRE  1 x 0  CRU</td>
             <td>41.711</td>
             <td>R$ 1.758.042</td>
+        </tr>
+        <tr>
+            <td>GRE  2 x 1  GOD
+            </td>
+            <td>36.204	
+            </td>
+            <td>R$ 1.543.736</td>
+        </tr>
+        <tr>
+            <td>GRE  1 x 1  SAN</td>
+            <td>30.034</td>
+            <td>R$ 1.059.399</td>
+        </tr>
+        <tr>
+            <td>GRE  3 x 2  IQU</td>
+            <td>28.235</td>
+            <td>R$ 1.105.541</td>
+        </tr>
+        <tr>
+            <td>GRE  0 x 2  AVA</td>
+            <td>27.222</td>
+            <td>R$ 934.304</td>
         </tr>
         </tbody>
         <tfoot>
