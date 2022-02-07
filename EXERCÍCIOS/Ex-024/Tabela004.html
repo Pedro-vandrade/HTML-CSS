@@ -39,9 +39,9 @@
         <caption>Filmes Favoritos</caption>
         <thead>
          <tr>
-             <th>Grupo</th>
-             <th>Nome</th>
-             <th colspan="3">Filmes</th>
+             <th scope="col">Grupo</th>
+             <th scope="col">Nome</th>
+             <th scope="colgroup" colspan="3">Filmes</th>
          </tr>
         </thead>
         <tbody>
@@ -65,7 +65,7 @@
                 <td>Nightcrawler</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Gladiador</td>
@@ -84,6 +84,10 @@
                 <td>Stalker</td>
             </tr>
         </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
     </table>
 </body>
 </html>
